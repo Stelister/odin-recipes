@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <title>Menu</title>
-</head>
-<body>
-    <h1>Odin Recipes</h1>
-
-    <img src="./food.jpg" alt="A clipart of some common eatables">
-    
-    <p>Here are some recipes. I made all of em myself!!</p>
-    <ul>
-        <li><a href="./recipes/swedish_meatballs.html">Swedish Meatballs</a></li>
-        <li><a href="./recipes/aperol_sour.html">Aperol Sour</a></li>
-        <li><a href="./recipes/coquito.html">Coquito</a></li>
-    </ul>
-    
-</body>
+        <meta charset="UTF-8">
+        <title>Menu</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="card">
+            <h1>Odin Recipes</h1>
+            <div class="recipes">
+                <a class="title" href="./recipes/meatballs.html" rel="noopener noreferrer">Swedish Meatballs</a>
+                <img src="./meatballs.jpg" alt="An image of sweedish meatballs">
+            </div>
+            <div class="recipes">
+                <a class="title" href="./recipes/aperol.html" rel="noopener noreferrer">Aperol Sour</a>
+                <img src="./aperol.jpg" alt="aperol">
+            </div>
+            <div class="recipes">
+                <a class="title" href="./recipes/coquito.html" rel="noopener noreferrer">Coquito</a>
+                <img src="coquito.jpg" alt="coquito">
+            </div>
+        </div>
+    </body>
 </html>

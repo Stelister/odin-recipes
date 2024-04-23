@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img, .recipes, .title {
+    border: 5px solid rgb(23 45 145);
+}
+.card {
+    width: 60em;
+    border: 20px double rgb(23 45 145);
+    margin: 16px auto;
+    padding: 16px;
+    background-color: antiquewhite;
+}
+h1 {
+    text-align: center;
+    font-size: 55px;
+}
+.title {
+    font-size: 35px;
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin: 16px auto;
+    padding: 8px;
+    background-color: rgb(184, 87, 223);
+    color: white;
+}
+.recipes {
+    margin: 16px auto;
+    background-color: rgb(255, 42, 219);
+}
+img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 16px auto;
+}
